@@ -1,14 +1,14 @@
-package com.myservices.customer;
-
+package com.myservices.fraud;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class CustomerApplication {
+public class FraudApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CustomerApplication.class, args);
+        SpringApplication.run(FraudApplication.class, args);
+
     }
 }
